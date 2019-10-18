@@ -35,7 +35,8 @@ void printArray(int arr[], int size)
 int main()
 {
 	int arr[] = {64, 25, 12, 22, 11};
-	int n == sizeof(arr)/sizeof(arr[0]);
+	int n = sizeof(arr)/sizeof(arr[0]); 
+	// resolved incorrect assignment of variable
 	selectionSort(arr, n);
 	cout << "Sorted array: \n";
 	printArray(arr, n);
